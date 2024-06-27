@@ -233,7 +233,7 @@
 
 .vContainer {
   background-color: #fff;
-  padding: 0% 0%;
+  padding: 0% 0% .8%;
   margin: 3% 0 0% !important;
   /* border-radius: 10px; */
   font-size: 1rem;
@@ -274,14 +274,14 @@ body {
 @media screen and (max-width: 1400px) {
 
   .gallery {
-    padding: 0 10%;
+    padding: 0 7% !important;
   }
 
   .vContainer {
     background-color: #fff;
-    padding: 0% 0%;
-    margin: 2% 0 5%;
-    border-radius: 10px;
+    padding: 0% 0% .8%;
+    margin: 2% 0 0%;
+    /* border-radius: 10px; */
     font-size: 1rem;
     font-weight: 600;
   }
@@ -306,14 +306,14 @@ body {
 @media screen and (max-width: 1200px) {
 
   .gallery {
-    padding: 0 5%;
+    padding: 0 4% !important;
   }
 
   .vContainer {
     background-color: #ffffff;
-    padding: 0% 0%;
-    margin: 1% 0 5%;
-    border-radius: 10px;
+    padding: 0% 0% .8%;
+    margin: 1% 0 0%;
+    /* border-radius: 10px; */
     font-size: 1rem;
     font-weight: 600;
   }
@@ -474,7 +474,7 @@ body {
   }
 
   .gallery {
-    padding: 0 1%;
+    padding: 0 0% !important;
   }
 
   .biggerText2{
