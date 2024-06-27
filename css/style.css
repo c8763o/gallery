@@ -242,24 +242,17 @@
 }
 
 body {
-  overflow-y: scroll;
+  overflow-y: hidden;
   overflow-x: hidden;
 }
 
 
 
 /* animate */
-.animate__animated.animate__backInLeft.wow {
-  --animate-duration: 800ms;
-}
 
-.animate__animated.animate__flipInX.wow {
-  --animate-delay: .5s;
-  --animate-duration: 800ms;
-}
-
-.animate__animated.animate__rubberBand.wow {
-  --animate-delay: .5s;
+.animate__animated.animate__fadeInUp.wow {
+  /* --animate-delay: .5s; */
+  --animate-duration: 500ms;
 }
 
 
