@@ -5,7 +5,7 @@
 }
 
 .bgColor {
-  background-color: #104f8f;
+  background-color: #104f8f !important;
 }
 
 .mainColor {
@@ -17,6 +17,11 @@
   border-color: #104f8f !important;
 }
 
+.cText{
+  font-size: .85rem;
+  font-weight: 400;
+  color: #fff;
+}
 
 .Sbtn {
   background-color: white;
@@ -218,7 +223,7 @@
 }
 
 .gallery {
-  padding: 0 10%;
+  padding: 0 10% !important;
 }
 
 .noRadius{
@@ -229,10 +234,20 @@
 .vContainer {
   background-color: #fff;
   padding: 0% 0%;
-  margin: 3% 0 5%;
+  margin: 3% 0 0% !important;
   /* border-radius: 10px; */
   font-size: 1rem;
   font-weight: 600;
+}
+
+.telName{
+  align-self: end !important;
+  font-size: .7rem;
+  padding: 0 0 .5% 1%;
+}
+
+.Fwidth{
+  width: 25%;
 }
 
 .noPadding {
@@ -242,7 +257,7 @@
 }
 
 body {
-  overflow-y: hidden;
+  overflow-y: scroll;
   overflow-x: hidden;
 }
 
