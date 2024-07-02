@@ -150,68 +150,6 @@
   background-size: cover;
 }
 
-.magz1 {
-  background-image: url("../img/foundation1.png");
-  max-width: 100%;
-  height: auto;
-  background-repeat: no-repeat;
-  background-size: cover;
-  border-radius: 20px;
-  background-position: center;
-  position: relative;
-}
-
-.magz2 {
-  background-image: url("../img/foundation2.png");
-  max-width: 100%;
-  height: auto;
-  background-repeat: no-repeat;
-  background-size: cover;
-  border-radius: 20px;
-  background-position: center;
-  position: relative;
-}
-
-.magz3 {
-  background-image: url("../img/foundation3.png");
-  max-width: 100%;
-  height: auto;
-  background-repeat: no-repeat;
-  background-size: cover;
-  border-radius: 20px;
-  background-position: center;
-  position: relative;
-}
-
-.overlay {
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  height: 100%;
-  width: 100%;
-  opacity: 0;
-  border-radius: 20px;
-  transition: .5s ease;
-  background-color: #00000098;
-}
-
-.magz:hover .overlay {
-  opacity: 1;
-}
-
-.text {
-  color: white;
-  font-size: 1.2rem;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  -webkit-transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
-  text-align: center;
-}
 
 .subtitle1 {
   color: #fff;
@@ -286,12 +224,6 @@ body {
     font-weight: 600;
   }
 
-  .divider {
-    height: 0.2em;
-    background-color: #fff;
-    margin-top: 2.5em;
-    width: 35vw;
-  }
 
   .biggerText2{
     font-size: 5rem;
@@ -318,27 +250,12 @@ body {
     font-weight: 600;
   }
 
-  .Qpadding {
-    padding: 0 .5% !important;
-  }
-
-  .divider {
-    height: 0.2em;
-    background-color: #fff;
-    margin-top: 2.5em;
-    width: 20vw;
-  }
-
   .biggerText2{
     font-size: 4rem;
   }
 
   .subtitle1{
     font-size: 1.5rem;
-  }
-
-  .sArticle{
-    font-size: 1rem;
   }
 
   .bigText2{
@@ -403,16 +320,8 @@ body {
     font-size: 1.2rem;
   }
 
-  .sArticle{
-    font-size: .8rem;
-  }
-
   .bigText2{
     font-size: 1.5rem;
-  }
-
-  .tLine {
-    display: none;
   }
 
   .cText{
@@ -421,6 +330,10 @@ body {
 
   .tM{
     margin: 0 0 5% !important;
+  }
+
+  .Fwidth{
+    width: 40%;
   }
 }
 
@@ -466,9 +379,6 @@ body {
     padding: 1% 1%;
   }
 
-  .instruction{
-    font-size: 1rem !important;
-  }
   .copyright{
     font-size: .8rem !important;
   }
@@ -489,6 +399,10 @@ body {
   .bigText2{
     font-size: 1.2rem;
   }
+
+  .Fwidth{
+    width: 50%;
+  }
 }
 
 @media screen and (max-width: 576px) {
@@ -501,14 +415,6 @@ body {
   .biggerText {
     font-size: 2.5em;
     font-weight: 400;
-  }
-
-  .divider {
-    height: 0.2em;
-    background-color: #fff;
-    margin-top: 1.5em;
-    width: 50vw;
-    display: none;
   }
 
   html,body {
@@ -540,5 +446,9 @@ body {
 
   .sContainer2{
     margin: 1%;
+  }
+
+  .Fwidth{
+    width: 35%;
   }
 }
